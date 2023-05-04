@@ -920,7 +920,7 @@ schema-utils@^4.0.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.1.0"
 
-scratch-extension@../modules/scratch-extension:
+scratch-extension@../sidekick-modules/scratch-extension:
   version "0.2.0"
 
 serialize-javascript@^6.0.0, serialize-javascript@^6.0.1:
