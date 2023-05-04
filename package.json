@@ -7,7 +7,7 @@
         "build:dist": "NODE_ENV=production yarn run build"
     },
     "dependencies": {
-        "scratch-extension": "../modules/scratch-extension"
+        "scratch-extension": "../sidekick-modules/scratch-extension"
     },
     "devDependencies": {
         "copy-webpack-plugin": "^10.2.0",
