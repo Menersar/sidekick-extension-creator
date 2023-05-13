@@ -4,6 +4,7 @@
     "author": "exampleAuthor",
     "scripts": {
         "build": "rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist && webpack --bail",
+        "build:extension1": "rimraf ./extension1/build && mkdirp extension1/build && rimraf ./extension1/dist && mkdirp extension1/dist && webpack --bail",
         "build:dist": "NODE_ENV=production yarn run build"
     },
     "dependencies": {
